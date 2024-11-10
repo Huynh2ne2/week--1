@@ -37,7 +37,8 @@ const Formjsonschema = () => {
     return (
         
         <Form
-            schema={{ type: 'string' }}
+            // schema={{ type: 'string' }}
+            schema={schema}
             formData={formData}
             onChange={(e) => setFormData(e.formData)}
             validator={validator}

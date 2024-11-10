@@ -51,6 +51,16 @@ body {
                             transition      : background-color 0s;
                             font-size       : 18px;
 
+                            img {
+                                &.profile-logo {
+                                    width        : 32px;
+                                    height       : 32px;
+                                    border-radius: 50%;
+                                    cursor       : pointer;
+                                }
+
+                            }
+
                             &:hover {
                                 color           : orange;
                                 background-color: #0E0F11;
@@ -155,3 +165,19 @@ body {
         }
     }
 }
+
+
+
+
+// .profile .submenu {
+//     display         : none;
+//     position        : absolute;
+//     background-color: white;
+//     border          : 1px solid #ccc;
+//     padding         : 8px;
+//     border-radius   : 4px;
+// }
+
+// .profile:hover .submenu {
+//     display: block;
+// }
