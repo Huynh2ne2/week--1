@@ -1,9 +1,7 @@
 Các bước cài đặt: (chế độ development)
 1. clone code
-2. cài đặt thư viện: npm i
+2. Chọn thư mục cần run (Nếu là reactjs -> cd reactjs -> npm i, npm start)
 3. Update file .env.development (nếu cần thiết)
-4. Chạy dự án: npm run dev || npm start
-
 
 Nơi lưu trữ
 component_page: lưu trữ các file giao diện

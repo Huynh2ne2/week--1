@@ -359,3 +359,17 @@ body {
         transform: translateY(10px);
     }
 }
+
+/* login.scss */
+
+.login-container {
+    .form-box {
+        .ant-form-item-label {
+            label {
+                color      : #ffffff;
+                /* white color */
+                font-weight: bold;
+            }
+        }
+    }
+}
