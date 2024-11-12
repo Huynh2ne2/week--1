@@ -10,6 +10,7 @@ import MarketPage from './component_page/page/market.jsx';
 import BinancePage from './component_page/page/binance.jsx';
 import MainPlayout from './component_page/layout/mainlayout.jsx';
 import ExchangePage from './component_page/page/exchange.jsx';
+import RegisterPage from './component_page/page/register.jsx'
 
 const router = [
   {
@@ -23,6 +24,11 @@ const router = [
       {
         path: "/login",
         element: <LoginPage />,
+        showHeader: false, showFooter: false
+      },
+      {
+        path: "/register",
+        element: <RegisterPage />,
         showHeader: false, showFooter: false
       },
       {
