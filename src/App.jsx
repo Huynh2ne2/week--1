@@ -8,7 +8,6 @@ function App() {
   const location = useLocation();
   const route = routes.flatMap(routeGroup => routeGroup.data)
                       .find(route => route.path === location.pathname);
-
   const showHeader = route ? route.showHeader : true;  
   const showFooter = route ? route.showFooter : true;
   return (
